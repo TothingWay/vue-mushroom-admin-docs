@@ -1,0 +1,50 @@
+{
+  "name": "vue-mushroom-admin-docs",
+  "version": "1.0.0",
+  "description": "vue-mushroom-admin docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "prepare": "husky install",
+    "cz": "czg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TothingWay/vue-mushroom-admin-docs.git"
+  },
+  "keywords": [
+    "vue-mushroom-admin",
+    "vue-mushroom-admin-docs",
+    "vue-admin",
+    "vite",
+    "vue3"
+  ],
+  "author": "TothingWay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TothingWay/vue-mushroom-admin-docs/issues"
+  },
+  "homepage": "https://github.com/TothingWay/vue-mushroom-admin-docs#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cz-git": "^1.3.10",
+    "czg": "^1.3.10",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.4.0",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.38"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}
