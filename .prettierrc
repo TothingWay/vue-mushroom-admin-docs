@@ -1,8 +1,4 @@
-{
-  "eslintIntegration": true,
-  "printWidth": 100,
-  "singleQuote": true,
-  "semi": false,
-  "htmlWhitespaceSensitivity": "ignore",
-  "endOfLine": "auto"
-}
+semi: false
+singleQuote: true
+printWidth: 80
+trailingComma: none
