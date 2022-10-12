@@ -1,7 +1,7 @@
 {
-  "name": "vue-mushroom-admin-docs",
+  "name": "xcrms-web-docs",
   "version": "1.0.0",
-  "description": "vue-mushroom-admin docs",
+  "description": "xcrms-web docs",
   "main": "src/index.ts",
   "exports": {
     ".": "./src/index.ts",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TothingWay/vue-mushroom-admin-docs.git"
+    "url": "git+https://github.com/TothingWay/xcrms-web-docs.git"
   },
   "keywords": [
-    "vue-mushroom-admin",
-    "vue-mushroom-admin-docs",
+    "xcrms-web",
+    "xcrms-web-docs",
     "vue-admin",
     "vite",
     "vue3"
@@ -26,7 +26,7 @@
   "license": "MIT",
   "homepage": "https://theme.vuejs.org",
   "bugs": {
-    "url": "https://github.com/TothingWay/vue-mushroom-admin-docs/issues"
+    "url": "https://github.com/TothingWay/xcrms-web-docs/issues"
   },
   "scripts": {
     "lint": "prettier --check --write --parser typescript \"{__tests__,docs,src,types}/**/*.ts\"",
@@ -42,14 +42,16 @@
   "dependencies": {
     "@docsearch/css": "^3.2.1",
     "@docsearch/js": "^3.2.1",
-    "@element-plus/icons-vue": "^2.0.9",
-    "@vueuse/core": "^9.1.1",
+    "@element-plus/icons-vue": "^2.0.10",
+    "@vueuse/core": "^9.3.0",
     "body-scroll-lock": "^3.1.5",
-    "element-plus": "^2.2.16",
+    "element-plus": "^2.2.17",
     "normalize.css": "^8.0.1",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@mdit-vue/types": "^0.11.0",
     "@types/body-scroll-lock": "^3.1.0",
     "@types/escape-html": "^1.0.2",
@@ -70,9 +72,9 @@
     "prismjs": "^1.29.0",
     "sass": "^1.54.8",
     "typescript": "^4.8.2",
-    "unocss": "^0.45.15",
-    "vitepress": "^1.0.0-alpha.13",
-    "vue": "^3.2.37"
+    "unocss": "^0.45.29",
+    "vitepress": "^1.0.0-alpha.19",
+    "vue": "^3.2.40"
   },
   "pnpm": {
     "peerDependencyRules": {
